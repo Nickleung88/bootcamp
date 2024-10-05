@@ -67,7 +67,7 @@ public class Demodatatype {
         int x2 = 9;
 
         // how to backup a value?
-        int back = x;
+        int backup = x;
         x = 25;
 
         // Operations: +=, -=, *=, /=
@@ -94,15 +94,15 @@ public class Demodatatype {
 
         // --
         e--;// decrment by 1
-        System.out.println ("e=" + e) // 6
+        System.out.println ("e=" + e); // 6
 
         // ++
         ++e;// incrment by 1
-        System.out.println ("e=" + e) // 7
+        System.out.println ("e=" + e); // 7
 
         // --
         --e;// decrment by 1
-        System.out.println ("e=" + e) // 6
+        System.out.println ("e=" + e); // 6
 
        
     }
