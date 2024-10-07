@@ -8,3 +8,7 @@
 - System.out.println()
 - int value & double value calculation
 - Math Symbol: ()
+
+- Summary
+    - Primitives: int, byte, short, int, long, float, double, char, boolean
+    - String

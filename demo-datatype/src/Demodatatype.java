@@ -104,6 +104,16 @@ public class Demodatatype {
         --e;// decrment by 1
         System.out.println ("e=" + e); // 6
 
-       
+        // Declaration
+       int u;
+       // int default value is 0, but it not for local variable.
+       u=8;
+       System.out.println (u); // NOT OK, because all local variballe have to be initialized.
+
+       // Literal notation
+       Long l7 = 10L;
+       float f2 = 10.3f;
+       double d2 = 10.3d;
+
     }
 }

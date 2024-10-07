@@ -57,16 +57,13 @@
     System.out.println ("the reminder result is: " + reminderans1);
 
 
-    int b1 = 3100;
-    int b2 = 300;
 
-    boolean (b2>b1);
     //AND &&
     //OR ||
 
 
     //qutesion: leap year?
-    int year1 = 2023; //2020. 2400
+    int year1 = 2027; //2020. 2400
 
     // && || , ||要先乘除後加減
     if(( year1%100!=0 || year1%400!=0) && year1%4==0 ){
@@ -75,7 +72,7 @@
 
 
 
-
+   
 
 
 
