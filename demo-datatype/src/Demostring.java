@@ -28,23 +28,41 @@ public class Demostring { // class name = file name
 
             //! length()
     
-            int len - x1.length();
+            int len = x1.length();
             System.out.println(len);//5
 
             // ! charAt (index)
             // index starts from 0 to length -1
-            System.out.println (x1.charAt(4); //0
+            System.out.println (x1.charAt(4)); //0
             System.out.println (x1.charAt(0)); //h
             System.out.println (x1.charAt(x1.length()-1)); //0
 
+
             //equals()
-            boolean result = "hello". equals (x1)
+            boolean result = "hello".equals(x1);
 
 
-            
             int age = 60;
             String sentence = "I am at age " + age; //String + int = String
             System.out.println (sentence); 
+
+
+            // ! toUpperCase()
+            System.out.println(x1.toUpperCase()); //' HELLO
+            System.out.println("Hello".toLowerCase()); //' hello
+
+            //Chain Method
+            System.out.println("Peter".toLowerCase().length()); //5
+            System.out.println("Peter".toLowerCase().length()>4); //true
+
+
+            // ! concat()
+            System.out.println("Nick".concat("Leung")); // NickLeung
+            String fullName = "Nick" + "Leung";
+            System.out.println(fullName);
+
+            String email = "nickleung@gmail.com";
+            System.out.println(email.contains("gmail"));//True
 
 
 
